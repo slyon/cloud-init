@@ -1,3 +1,10 @@
+cloud-init (20.3-2-g371b392c-0ubuntu1~20.04.1+ppa1) focal; urgency=medium
+
+  * d/p/0001-get_interfaces-don-t-exclude-Open-vSwitch-bridge-bon.patch
+    - Don't exclude OVS bridge members from physical devices (LP: #1898997)
+
+ -- Lukas Märdian <lukas.maerdian@canonical.com>  Tue, 13 Oct 2020 15:19:02 +0200
+
 cloud-init (20.3-2-g371b392c-0ubuntu1~20.04.1) focal; urgency=medium
 
   * d/cloud-init.postinst: fix the grub install device for NVMe-rooted
